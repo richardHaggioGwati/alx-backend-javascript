@@ -3,10 +3,10 @@
  * */
 
 export default function iterateThroughObject(reportWithIterator) {
-    const resultArray = [];
+  const resultArray = [];
 
-    for (const employee of reportWithIterator) {
-        resultArray.push(employee);
-    }
-    return resultArray.join(' | ');
+  for (const employee of reportWithIterator) {
+    resultArray.push(employee);
+  }
+  return resultArray.join(' | ');
 }
